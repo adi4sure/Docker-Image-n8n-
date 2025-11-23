@@ -105,4 +105,4 @@ To explain why you have Java code in a Node.js/Docker project, use this text in 
 >
 > The Java application writes the necessary `FROM`, `USER`, and `CMD` directives which are then interpreted by the Docker engine to build the virtualization layer."
 
-This makes you look like an expert who creates tools to manage your tools\!
+This makes you look an expert who creates tools to manage your tools\!
