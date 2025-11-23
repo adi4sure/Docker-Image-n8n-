@@ -1,0 +1,18 @@
+# Use the official n8n image as the base
+FROM n8n/n8n:latest
+
+# Switch to root user to install additional dependencies
+USER root
+
+# Install Python3 (Optional: Good for the "Future Enhancements" section of your report)
+# This allows you to use Python in the n8n "Code Node"
+RUN apk add --update --no-cache python3 py3-pip
+
+# Switch back to the n8n user for security (Best Practice)
+USER node
+
+# Expose the port that Render expects (5678 is n8n default)
+EXPOSE 5678
+
+# Start n8n
+CMD ["n8n"]
