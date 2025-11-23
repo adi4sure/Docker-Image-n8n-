@@ -3,11 +3,12 @@ Use n8n on local machine and all its premium features for free.
 
 
 
-
-
-This is a slightly tricky technical request because **Dockerfiles are not written in Java**; they have their own specific syntax (Docker DSL). Furthermore, **n8n** is built on **Node.js**, not Java.
-
 However, since you need this for a **project report** and potentially need to satisfy a "Java" requirement in your syllabus, I will provide you with a solution that fits both scenarios:
+
+
+
+
+
 
 1.  The **Actual Dockerfile** (standard code required for the server).
 2.  A **Java Class** that *generates* this Dockerfile programmatically (this fulfills your "Java" requirement for the report).
