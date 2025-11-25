@@ -92,7 +92,7 @@ public class DockerImageGenerator {
 
 -----
 
-### How to explain this in your report (Page filler text)
+
 
 To explain why you have Java code in a Node.js/Docker project, use this text in your **Implementation Details** section:
 
@@ -104,5 +104,3 @@ To explain why you have Java code in a Node.js/Docker project, use this text in 
 > 2.  **Modular:** If we need to switch from Render to AWS, we simply update the Java string logic and regenerate the configuration file.
 >
 > The Java application writes the necessary `FROM`, `USER`, and `CMD` directives which are then interpreted by the Docker engine to build the virtualization layer."
-
-This makes you look an expert who creates tools to manage your tools\!
